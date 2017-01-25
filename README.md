@@ -62,3 +62,9 @@ If we wanted to use urlencoding to pass the data in the body, we would set the C
 ```
 email=user@gmail.com&password=test
 ```
+
+## The Gory Details
+
+If you want to learn literally everything there is to know about the HTTP/1.1 request structure, your source of truth is the standard, here:
+
+[https://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html#sec4.3](https://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html#sec4.3)
