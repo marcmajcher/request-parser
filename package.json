@@ -1,11 +1,15 @@
 {
   "name": "request-parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple request parser drill",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Marc Majcher",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
