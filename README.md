@@ -4,7 +4,7 @@ Sometimes it feels like the req object that express routes use to handle HTTP re
 
 ## GET request with query values
 
-We're going to create a parse() method in our request module (in request.js) that takes an HTTP request string, and returns a request object with the proper elements parsed out. For example, a GET request with query values in the URL might look like:
+We're going to create a parse() method in our request module (in request.js) that takes an HTTP request string, and returns a request object with the proper elements parsed out. (You can run 'npm test' from the command line to see if your method works!) For example, a GET request with query values in the URL might look like:
 
 ```
 GET /movies?actor=Christopher%20Lee&year=1973
@@ -68,3 +68,7 @@ email=user@gmail.com&password=test
 If you want to learn literally everything there is to know about the HTTP/1.1 request structure, your source of truth is the standard, here:
 
 [https://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html#sec4.3](https://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html#sec4.3)
+
+And if you need a refresher on all things express request/response/router, you can find the docs here:
+
+[http://expressjs.com/en/api.html](http://expressjs.com/en/api.html)
