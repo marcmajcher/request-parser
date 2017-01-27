@@ -1,7 +1,7 @@
 'use strict';
 
-var assert = require('chai').assert;
-var r = require('../request.js');
+const assert = require('chai').assert;
+const r = require('../request.js');
 
 const postRequestJSON = `POST /login HTTP/1.1
 Host: localhost
